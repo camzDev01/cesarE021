@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marimba Chapina</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-content">
+      <h1>Marimba Chapina</h1>
+      <p>El alma sonora de Guatemala para el mundo</p>
+    </div>
+  </header>
+
+  <nav class="nav-bar">
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#gallery">Galería</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <section id="about" class="card">
+      <h2>¿Quiénes somos?</h2>
+      <p>
+        En Marimba Chapina celebramos y difundimos la música tradicional guatemalteca, enfocándonos en la marimba como símbolo cultural. Nuestra misión es conectar corazones a través del sonido único de Guatemala.
+
+      <a href="#" title="Facebook"><br>Facebook🌐</a>
+      <a href="#" title="YouTube">YouTube▶️</a>
+      <a href="#" title="Instagram">Instagram📸</a>
+      </p>
+    </section>
+
+    <section id="gallery" class="card">
+      <h2>Galería de imágenes</h2>
+      <div class="gallery-cards">
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Marimba guatemalteca" />
+        </div>
+        <div class="gallery-item">
+          <img src="img2.jpg" alt="Marimbista tocando" />
+        </div>
+        <div class="gallery-item">
+          <img src="img3.jpg" alt="Concierto de marimba" />
+        </div>
+        <div class="gallery-item">
+          <img src="img4.jpg" alt="Músicos tocando marimba" />
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="card">
+      <h2>Video destacado</h2>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/ecUMlB5krV0" title="Marimba Guatemalteca" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contacto</h2>
+      <form action="#" method="post">
+        <label for="name">Nombre completo:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Mensaje o consulta:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Marimba Chapina - Tradición y pasión sonora</p>
+  </footer>
+
+</body>
+</html>
